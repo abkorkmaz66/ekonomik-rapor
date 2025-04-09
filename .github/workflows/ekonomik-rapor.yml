@@ -18,8 +18,8 @@ jobs:
 
     - name: Kütüphaneleri yükle
       run: |
-        pip install -r requirements.txt
+        pip install -r PythonProject2/requirements.txt
 
     - name: Raporu oluştur
       run: |
-        python Finance.py
+        python PythonProject2/Finance.py
